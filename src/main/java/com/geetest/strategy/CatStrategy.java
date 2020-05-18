@@ -1,7 +1,6 @@
 package com.geetest.strategy;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * @author zhoubing
@@ -16,13 +15,14 @@ public class CatStrategy {
 
         Cat[] cats = new Cat[]{cat1, cat2, cat3, cat4};
 
+        System.out.println("原始的猫组合");
         System.out.println(Arrays.toString(cats));
-        Arrays.sort(cats, new Comparator<Cat>() {
-            @Override
-            public int compare(Cat o1, Cat o2) {
-                return o1.getWeight() - o2.getWeight();
-            }
-        });
+        Arrays.sort(cats, new CatHeightComparator());
+        System.out.println("按照高度比较，从小到大");
+        System.out.println(Arrays.toString(cats));
+
+        Arrays.sort(cats, new CatWeightComparator());
+        System.out.println("按照重量比较，从小到大");
         System.out.println(Arrays.toString(cats));
 
     }
