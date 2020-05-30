@@ -4,15 +4,15 @@ package com.geetest.factory.abstractfactory2;
  * @author zhoubing
  * @date 2020-05-30 11:00
  */
-public class JavaCourseFactory implements CourseFactory {
-    class JavaVideo implements Video {
+public class JavaCourseFactory extends CourseFactory {
+    class JavaVideo extends Video {
         @Override
         public void produce() {
             System.out.println("录制Java课程");
         }
     }
 
-    class JavaArticle implements Article {
+    class JavaArticle extends Article {
         @Override
         public void produce() {
             System.out.println("编写Java手记");

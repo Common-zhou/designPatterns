@@ -4,6 +4,6 @@ package com.geetest.factory.abstractfactory2;
  * @author zhoubing
  * @date 2020-05-30 10:41
  */
-public interface Video {
-    void produce();
+public abstract class Video {
+    abstract void produce();
 }
