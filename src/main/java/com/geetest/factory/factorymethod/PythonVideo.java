@@ -1,4 +1,4 @@
-package com.geetest.factory.abstractfactory2;
+package com.geetest.factory.factorymethod;
 
 /**
  * @author zhoubing

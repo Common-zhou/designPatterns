@@ -2,8 +2,8 @@ package com.geetest.factory.abstractfactory2;
 
 /**
  * @author zhoubing
- * @date 2020-05-30 10:41
+ * @date 2020-05-30 10:59
  */
-public interface Video {
+public interface Article {
     void produce();
 }
