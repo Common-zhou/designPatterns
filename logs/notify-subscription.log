@@ -1,0 +1,7 @@
+2021-11-25 00:18:09,642 - send entity. [info=PrizeInfo(prizeType=ENTITY, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=hubei, account=null, email=null))]
+2021-11-25 00:20:00,615 - send entity. [info=PrizeInfo(prizeType=ENTITY, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=hubei, account=null, email=null))]
+2021-11-25 00:20:00,616 - send virtual. [info=PrizeInfo(prizeType=VIRTUAL, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=null, account=account, email=null))]
+2021-11-25 00:20:00,616 - send qq music . [info=PrizeInfo(prizeType=QQ_MUSIC, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=null, account=qq account, email=null))]
+2021-11-25 00:33:17,774 - entity prize.prizeInfo=[PrizeInfo(prizeType=ENTITY, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=hubei, account=null, email=null))]
+2021-11-25 00:34:15,337 - entity prize.prizeInfo=[PrizeInfo(prizeType=ENTITY, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=hubei, account=null, email=null))]
+2021-11-25 00:34:15,339 - send virtual prize.[prizeInfo=PrizeInfo(prizeType=ENTITY, personInfo=ReceivePersonInfo(name=zhouzhou, phone=110, address=hubei, account=null, email=null))]
