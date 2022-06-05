@@ -6,7 +6,11 @@
 
     <groupId>com.geetest</groupId>
     <artifactId>designPatterns</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>geektime_design</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
