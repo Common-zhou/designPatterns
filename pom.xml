@@ -10,6 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>geektime_design</module>
+        <module>design-exercise</module>
     </modules>
     <dependencies>
         <dependency>
